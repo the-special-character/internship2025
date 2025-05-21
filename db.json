@@ -1,0 +1,34 @@
+{
+  "todoList": [
+    {
+      "id": "492f",
+      "text": "afasfadsf",
+      "isDone": true
+    },
+    {
+      "id": "b2d0",
+      "text": "asdfdas",
+      "isDone": true
+    },
+    {
+      "id": "e251",
+      "text": "asdf",
+      "isDone": true
+    },
+    {
+      "id": "7b2c",
+      "text": "asd",
+      "isDone": true
+    },
+    {
+      "id": "e527",
+      "text": "asd",
+      "isDone": false
+    },
+    {
+      "id": "c0ef",
+      "text": "fadsf",
+      "isDone": false
+    }
+  ]
+}
