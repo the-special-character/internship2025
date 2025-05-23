@@ -15,9 +15,10 @@ import {
 import clsx from "clsx";
 import { Button } from "../ui/button";
 import { TrashIcon } from "lucide-react";
+import { useTodo } from "@/context/todoContext";
 
-const TodoListItem = ({ todoItem, toggleTodoComplete, deleteTodo }) => {
-  console.log("todoItem render");
+const TodoListItem = ({ todoItem,  }) => {
+  const { toggleTodoComplete, deleteTodo } = useTodo();
   return (
     <li className="flex items-center gap-4">
       <div className="flex items-center gap-2">

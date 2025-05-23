@@ -2,9 +2,10 @@ import React, { forwardRef, memo } from "react";
 import { Label } from "../ui/label";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
+import { useTodo } from "@/context/todoContext";
 
-const TodoForm = forwardRef(({ addTodo }, ref) => {
-  console.log("TodoForm render");
+const TodoForm = () => {
+  const { addTodo, todoTextRef } = useTodo();
   return (
     <form onSubmit={addTodo}>
       <div className="*:not-first:mt-2">
@@ -13,7 +14,7 @@ const TodoForm = forwardRef(({ addTodo }, ref) => {
         </Label>
         <div className="flex rounded-md shadow-xs">
           <Input
-            ref={ref}
+            ref={todoTextRef}
             id="todoText"
             className="-me-px flex-1 rounded-e-none shadow-none focus-visible:z-10"
           />
@@ -22,6 +23,6 @@ const TodoForm = forwardRef(({ addTodo }, ref) => {
       </div>
     </form>
   );
-});
+};
 
 export default memo(TodoForm);
