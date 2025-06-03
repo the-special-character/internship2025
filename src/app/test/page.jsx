@@ -45,8 +45,10 @@ const Test = () => {
     //     <div className="box">Item 1</div>
     //     <div className="box">Item 2</div>
     // </div>
+    
     <div className="wrapper">
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum molestiae reprehenderit, reiciendis laborum temporibus, sed vitae sint consectetur, similique libero aut voluptatibus? Corporis, veritatis. In, iste culpa. Iste, saepe officiis?</h1>
+        <h2>helo world</h2>
     </div>
 
   );
