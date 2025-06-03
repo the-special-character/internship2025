@@ -1,4 +1,3 @@
-import { useLocale } from "@/context/localeContext";
 import Image from "next/image";
 
 export default function Home() {

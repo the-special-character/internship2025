@@ -1,12 +1,9 @@
 "use client";
 
 import React, { useRef, useState, useEffect } from "react";
-import TodoFilter from "@/components/todo/todoFilter";
-import TodoForm from "@/components/todo/todoForm";
-import TodoList from "@/components/todo/todoList";
-import { useCallback } from "react";
-import { useMemo } from "react";
-import { Context, useLocale } from "@/context/localeContext";
+// import TodoFilter from "@/components/todo/todoFilter";
+// import TodoForm from "@/components/todo/todoForm";
+// import TodoList from "@/components/todo/todoList";
 
 const Test = () => {
   return (
@@ -14,9 +11,9 @@ const Test = () => {
       <header>
         <h1 className="text-2xl font-semibold">Todo List</h1>
       </header>
-      <TodoForm />
-      <TodoList />
-      <TodoFilter />
+      {/* <TodoForm /> */}
+      {/* <TodoList /> */}
+      {/* <TodoFilter /> */}
     </main>
   );
 };
